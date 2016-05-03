@@ -125,10 +125,10 @@ INTRO
   width: 40px;
   height: 40px;
   line-height: 40px;
-  border: solid 2px #fff;
+  border: solid 2px #FCCD00;
   border-radius: 20px;
   z-index: 3;
-  color: #fff;
+  color: #FCCD00;
 }
 .intro .content {
   position: relative;
@@ -757,7 +757,8 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #555555;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
+  /*background-color: #FFF557;*/
 }
 a {
   color: #5091da;
