@@ -43,6 +43,11 @@ section {
   text-align: center;
   margin-bottom: 40px;
 }
+.headingText{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 .heading:after {
   content: " ";
   display: block;
@@ -751,6 +756,7 @@ STYLE SWITCHER FOR DEMO
 .navbar-default .navbar-link:hover {
   color: #5091da;
 }
+
 /* scaffolding */
 body {
   font-family: 'Open Sans', sans-serif;
@@ -1090,6 +1096,11 @@ p {
   margin-bottom: 20px;
   font-size: 16px;
 }
+
+.lead .textCenter{
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .lead {
     font-size: 21px;
