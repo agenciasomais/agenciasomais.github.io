@@ -67,6 +67,10 @@ h4.heading:after {
 .img-responsive {
   margin: 0 auto;
 }
+
+.imgBar{
+  padding-top: -14px;
+}
 .box {
   margin-bottom: 30px;
 }
@@ -603,6 +607,7 @@ STYLE SWITCHER FOR DEMO
     margin-left: -15px;
   }
 }
+
 .navbar-toggle {
   padding: 9px 10px !important;
   margin-right: 15px;
@@ -721,6 +726,7 @@ STYLE SWITCHER FOR DEMO
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
+  margin-bottom: -30px;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
