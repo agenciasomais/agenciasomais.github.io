@@ -58,6 +58,7 @@ section {
 }
 h4.heading {
   margin-bottom: 20px;
+  color:#6b2a6b;
 }
 h4.heading:after {
   margin: 10px auto 20px;
@@ -198,15 +199,21 @@ SERVICES
 .box-services {
   padding: 40px 20px 20px;
   border-bottom: 1px solid #d4d4d4;
-  background: #fff;
+  background: #fdd443;
 }
 .box-services .icon {
   text-align: center;
   font-size: 25px;
   color: #000;
 }
+
+.icon:hover [class^="ti-"],
+.icon:hover [class*=" ti-"] {
+  font-size: 1.8em;
+  margin-top: -5px;
+}
 .box-services p {
-  color: #999999;
+  color: #303030;
   text-align: center;
   font-size: 11px;
 }
@@ -763,7 +770,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #555555;
-  background-color: #FFFFFF;
+  background-color: #fff;
   /*background-color: #FFF557;*/
 }
 a {
@@ -1095,6 +1102,11 @@ p {
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
+}
+.lead-center {
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-align: center;
 }
 
 .lead .textCenter{
