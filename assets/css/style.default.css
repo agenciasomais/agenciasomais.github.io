@@ -71,6 +71,11 @@ h4.heading:after {
 .imgBar{
   padding-top: -14px;
 }
+
+.img{
+  vertical-align: middle;
+  padding-bottom: 10%;
+}
 .box {
   margin-bottom: 30px;
 }
