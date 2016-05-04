@@ -24,8 +24,8 @@ header {
 }
 section {
   position: relative;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 .section-gray {
   background: #f4f4f4;
@@ -212,6 +212,7 @@ SERVICES
   font-size: 1.8em;
   margin-top: -5px;
 }
+
 .box-services p {
   color: #303030;
   text-align: center;
@@ -304,6 +305,8 @@ SOCIAL LINKS
 .contact-form {
   margin-bottom: 20px;
 }
+
+
 p.social {
   text-align: center;
   margin-top: 20px;
@@ -683,7 +686,7 @@ STYLE SWITCHER FOR DEMO
 }
 .navbar-default {
   background-color: #ffffff;
-  border-bottom-color: #e6e6e6;
+  border-bottom-color: #6B2A6B;
 }
 .navbar-default .navbar-brand {
   color: #555555;
