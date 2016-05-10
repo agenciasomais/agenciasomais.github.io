@@ -65,6 +65,7 @@ h4.heading:after {
   height: 1px;
 }
 .img-responsive {
+
   margin: 0 auto;
 }
 
@@ -80,11 +81,13 @@ h4.heading:after {
   margin-bottom: 30px;
 }
 .no-space .box {
-  margin: 0 -15px;
+  padding: 45px;
 }
 .margin-bottom {
   margin-bottom: 30px;
 }
+
+
 /*
 
 =====================
@@ -414,8 +417,11 @@ NAVBAR
   position: relative;
   z-index: 1004;
 }
-/*
 
+.navgation .container{
+  padding: 15px 0px;
+}
+/*
 =====================
 MAP
 =====================
@@ -697,6 +703,7 @@ STYLE SWITCHER FOR DEMO
 .navbar-default {
   background-color: #ffffff;
   border-bottom-color: #6B2A6B;
+  padding: 10px 0px;
 }
 .navbar-default .navbar-brand {
   color: #555555;
